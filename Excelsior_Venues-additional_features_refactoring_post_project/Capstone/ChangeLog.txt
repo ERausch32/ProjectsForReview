@@ -1,0 +1,17 @@
+﻿
+1 Added constructor to Models classes Space & Reservation.  Made the class properties private set;
+2 Changed SpaceSqlDAO to use constructor for Space
+3 Changed UserInterface to use constructor for Reservation
+4 Left Model Venue with public set; to encourage conversation about best practice.  (Still has public set;)
+5 Added comment to UserInterface to better explain how reservation Id is set.
+6 Changed spaceSqlDAO to use a seperate method to build a space
+	(essentially moving duplicate code out of 3 methods into a seperate method)
+7 Changed list venues to use a filter to allow filter by category.
+8 Added appropriate method changes to all interface classes (mostly changing parameters and parameter types)
+9 Added option 2 (choose a category) to RunMainMenu in UserInterface
+10 Changed integration tests to accept new parameters (GetVenues tests now accept a filter.  Changed to data rows to test options)
+11 Added integration test for venuDAO GetCategories
+12 Impmlemented a ToString override for model Reservation & Category.
+13 Add feature to request additional filtering on space availability.
+14 Changed sql statement to work with additional filtering based on passed parameters.
+15 Added 2 DataRows to integration test to look for availability & daily budget requests.

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capstone", "Capstone\Capstone.csproj", "{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DE52508-672F-44B1-B3DE-CB0D4749525F}"
+	ProjectSection(SolutionItems) = preProject
+		excelsior-venues.sql = excelsior-venues.sql
+		module-2-capstone-requirements.md = module-2-capstone-requirements.md
+		module-2-capstone-review-criteria.md = module-2-capstone-review-criteria.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capstone.IntegrationTests", "Capstone.IntegrationTests\Capstone.IntegrationTests.csproj", "{CAABA66F-1E58-4011-AD86-7E1702C1ADB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65523751-42D6-4B54-BCF6-FEC5BE2DE98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAABA66F-1E58-4011-AD86-7E1702C1ADB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAABA66F-1E58-4011-AD86-7E1702C1ADB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAABA66F-1E58-4011-AD86-7E1702C1ADB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAABA66F-1E58-4011-AD86-7E1702C1ADB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D45AE65-0FF5-4B53-A564-78B7468BB014}
+	EndGlobalSection
+EndGlobal
